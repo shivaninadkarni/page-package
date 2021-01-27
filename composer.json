@@ -1,0 +1,26 @@
+{
+    "name": "imagineworks/page",
+    "description": "Pages for CMS",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shivani Nadkarni",
+            "email": "shivani@imagine-works.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "IW\\Page\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IW\\Page\\PageServiceProvider"
+            ]
+        }
+    }
+}
