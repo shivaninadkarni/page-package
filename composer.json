@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "iw/settings": "dev-master"
+    },
     "autoload":{
         "psr-4":{
             "IW\\Page\\":"src/"
